@@ -1,4 +1,206 @@
-h1,h2,h3,h4,h5,h6,p,figure,ul,li {
+h1,h2,h3,h4,h5,h6,p,figure,ul,li,img {
     margin: 0;
     padding: 0;
+}
+
+.container {
+    width: 920px;
+}
+
+.block-center {
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.cuerpo {
+    background-color: black;
+}
+
+/*ENCABEZADO*/
+
+#encabezado {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.electronic-music {
+    color: white;
+}
+
+#titulo h1 {
+    font-size: 2.7em;
+    padding-top: 20px;
+}
+
+/*NOTA PRINCIPAL*/
+
+#nota-principal {
+    padding-top: 20px;
+}
+
+.sombra-imagen {
+    box-shadow:c 10px 10px;
+}
+
+/*NOTA SECUNDARIA*/
+
+#notas-secundarias {
+    min-height: 300px;
+    width: 920px;
+    display: inline-block;
+    float: left;
+    background-color: black;
+    padding-top: 40px;
+}
+
+#notas-secundarias h2 {
+    margin-bottom: 15;
+    font-variant: small-caps;
+    line-height: 0.8em;
+}
+
+#notas-secundarias article {
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+.imagen-nota-secundaria {
+    position: relative;
+}
+
+.titulo-nota-secundaria {
+    font-size: 1.9em;
+    line-height: 0.9em;
+    font-variant: small-caps;
+    color: purple;
+}
+
+.cuerpo-nota-secundaria {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.intro-nota-secundaria {
+    text-align: justify;
+    margin: 10px 0;
+    padding: 10px 0;
+    font-variant: small-caps;
+    color: white;
+}
+
+#notas-secundarias figure {
+    position: relative;
+}
+
+.cuerpo-nota-secundaria {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.titulo-nota-secundaria a {
+    color: #9A06A7;
+    text-decoration: none;
+}
+
+.titulo-nota-secundaria a:hover {
+    color: #01DBFE;
+    text-decoration: underline;
+}
+
+.sombra-imagen {
+    box-shadow: 0 0 5px #9A06A7;
+    border-radius: 5%;
+}
+
+.ver-mas {
+    margin: 0;
+    padding: 2px;
+    background-color: #9A06A7;
+    display: inline-block;
+}
+
+.ver-mas div {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.ver-mas p {
+    color: black;
+    font-weight: bold;
+    font-variant: small-caps;
+    padding: 0 20px;
+}
+
+.ver-mas:hover {
+    margin: 0;
+    padding: 2px;
+    background-color: #01DBFE;
+    display: inline-block;
+}
+
+.audio {
+    width: 125px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.audio-dj1 {
+     width: 125px;
+    /*display: inline-block;*/
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.audio-dj2 {
+     width: 125px;
+    /*display: inline-block;*/
+    padding-top: 10px;
+    padding-left: 105px;
+}
+
+.audio-dj3 {
+     width: 125px;
+    /*display: inline-block;*/
+    padding-top: 10px;
+    padding-left: 104px;
+}
+
+.audio-dj4 {
+     width: 125px;
+    /*display: inline-block;*/
+    padding-top: 10px;
+    padding-left: 103px;
+}
+
+.flexible {
+    display: flex;
+}
+
+/*PAGINAS DJS*/
+
+#paginas-djs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/*PIE*/
+
+#pie {
+    height: 100px;
+    padding-top: 50px;
+}
+
+#pie p {
+    color: white;
+    font-variant: small-caps;
 }
